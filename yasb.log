@@ -2933,3 +2933,306 @@ Current thread's C stack trace (most recent call first):
 2026-05-17 17:42:50,387 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
 2026-05-17 17:42:50,393 [INFO] [MainThread] [root/bar_manager.py:92]: Successfully loaded updated config and re-initialised all bars.
 2026-05-17 17:42:50,513 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping SystemEventListener...
+2026-05-17 17:42:51,119 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-17 17:42:51,120 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-17 17:42:51,120 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-17 17:42:51,164 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-17 17:42:51,164 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-17 17:42:51,179 [WARNING] [MainThread] [root/bar_manager.py:150]: Screen 'secondary' from config not found among connected screens.
+2026-05-17 17:42:51,192 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GlazewmTilingDirectionConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-17 17:42:51,235 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GlazewmWorkspacesConfig: 'hide_empty_workspaces' - No longer supported and can be removed from the config.
+2026-05-17 17:42:51,235 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GlazewmWorkspacesConfig: 'container_padding' - Use CSS padding instead.
+2026-05-17 17:42:51,602 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] WeatherWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-17 17:42:51,612 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CpuConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-17 17:42:51,919 [WARNING] [MainThread] [root/bar_manager.py:171]: Screen 'secondary' from config not found among connected screens.
+2026-05-17 17:42:51,919 [INFO] [MainThread] [root/bar_manager.py:102]: Starting SystemEventListener...
+2026-05-17 17:42:51,919 [ERROR] [MainThread] [root/widget_builder.py:114]: Failed to validate widget(s) due to invalid options  - weather
+      api_key:
+      - Input should be a valid string
+      
+2026-05-17 17:42:51,968 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pedro\.config\yasb
+2026-05-17 17:42:51,969 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-17 17:42:51,980 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-17 17:44:10,139 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-17 17:44:10,139 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-17 17:44:10,140 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-05-17 17:44:10,246 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-17 17:44:10,252 [INFO] [MainThread] [root/bar_manager.py:92]: Successfully loaded updated config and re-initialised all bars.
+2026-05-17 17:44:10,364 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping SystemEventListener...
+2026-05-17 17:44:11,055 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-17 17:44:11,055 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-17 17:44:11,055 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-17 17:44:11,112 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-17 17:44:11,112 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-17 17:44:11,131 [WARNING] [MainThread] [root/bar_manager.py:150]: Screen 'secondary' from config not found among connected screens.
+2026-05-17 17:44:11,153 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GlazewmTilingDirectionConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-17 17:44:11,224 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GlazewmWorkspacesConfig: 'hide_empty_workspaces' - No longer supported and can be removed from the config.
+2026-05-17 17:44:11,224 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GlazewmWorkspacesConfig: 'container_padding' - Use CSS padding instead.
+2026-05-17 17:44:11,632 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] WeatherWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-17 17:44:11,644 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CpuConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-17 17:44:12,025 [WARNING] [MainThread] [root/bar_manager.py:171]: Screen 'secondary' from config not found among connected screens.
+2026-05-17 17:44:12,025 [INFO] [MainThread] [root/bar_manager.py:102]: Starting SystemEventListener...
+2026-05-17 17:44:12,026 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pedro\.config\yasb
+2026-05-17 17:44:12,026 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-17 17:44:12,186 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-17 17:44:12,616 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-17 17:44:12.616809
+2026-05-17 17:48:36,107 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-17 17:48:36,107 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-17 17:48:36,108 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-05-17 17:48:36,213 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-17 17:48:36,219 [INFO] [MainThread] [root/bar_manager.py:92]: Successfully loaded updated config and re-initialised all bars.
+2026-05-17 17:48:36,332 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping SystemEventListener...
+2026-05-17 17:48:36,997 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-17 17:48:36,998 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-17 17:48:36,998 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-17 17:48:37,041 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-17 17:48:37,041 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-17 17:48:37,057 [WARNING] [MainThread] [root/bar_manager.py:150]: Screen 'secondary' from config not found among connected screens.
+2026-05-17 17:48:37,071 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GlazewmTilingDirectionConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-17 17:48:37,115 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GlazewmWorkspacesConfig: 'hide_empty_workspaces' - No longer supported and can be removed from the config.
+2026-05-17 17:48:37,115 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GlazewmWorkspacesConfig: 'container_padding' - Use CSS padding instead.
+2026-05-17 17:48:37,490 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] WeatherWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-17 17:48:37,693 [WARNING] [MainThread] [root/bar_manager.py:171]: Screen 'secondary' from config not found among connected screens.
+2026-05-17 17:48:37,693 [INFO] [MainThread] [root/bar_manager.py:102]: Starting SystemEventListener...
+2026-05-17 17:48:37,694 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pedro\.config\yasb
+2026-05-17 17:48:37,694 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-17 17:48:37,732 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-17 17:48:38,394 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-17 17:48:38.394391
+2026-05-17 17:48:40,548 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-17 17:48:40,548 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-17 17:48:40,548 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-05-17 17:48:40,653 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-17 17:48:40,659 [INFO] [MainThread] [root/bar_manager.py:92]: Successfully loaded updated config and re-initialised all bars.
+2026-05-17 17:48:40,765 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping SystemEventListener...
+2026-05-17 17:48:41,479 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-17 17:48:41,480 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-17 17:48:41,480 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-17 17:48:41,522 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-17 17:48:41,523 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-17 17:48:41,537 [WARNING] [MainThread] [root/bar_manager.py:150]: Screen 'secondary' from config not found among connected screens.
+2026-05-17 17:48:41,551 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GlazewmTilingDirectionConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-17 17:48:41,596 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GlazewmWorkspacesConfig: 'hide_empty_workspaces' - No longer supported and can be removed from the config.
+2026-05-17 17:48:41,596 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GlazewmWorkspacesConfig: 'container_padding' - Use CSS padding instead.
+2026-05-17 17:48:41,612 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CpuConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-17 17:48:41,995 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] WeatherWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-17 17:48:42,233 [WARNING] [MainThread] [root/bar_manager.py:171]: Screen 'secondary' from config not found among connected screens.
+2026-05-17 17:48:42,234 [INFO] [MainThread] [root/bar_manager.py:102]: Starting SystemEventListener...
+2026-05-17 17:48:42,235 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pedro\.config\yasb
+2026-05-17 17:48:42,235 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-17 17:48:42,254 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-17 17:48:42,376 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-17 17:48:42.376827
+2026-05-17 17:53:58,971 [ERROR] [MainThread] [root/config.py:113]: The file 'C:\Users\pedro\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\pedro\.config\yasb\config.yaml", line 103, column 5
+expected <block end>, but found '<block mapping start>'
+  in "C:\Users\pedro\.config\yasb\config.yaml", line 107, column 7
+2026-05-17 17:54:00,992 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-17 17:54:00,993 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-17 17:54:00,993 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-05-17 17:54:01,094 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-17 17:54:01,099 [INFO] [MainThread] [root/bar_manager.py:92]: Successfully loaded updated config and re-initialised all bars.
+2026-05-17 17:54:01,215 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping SystemEventListener...
+2026-05-17 17:54:01,808 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-17 17:54:01,809 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-17 17:54:01,809 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-17 17:54:01,852 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-17 17:54:01,852 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-17 17:54:01,867 [WARNING] [MainThread] [root/bar_manager.py:150]: Screen 'secondary' from config not found among connected screens.
+2026-05-17 17:54:01,880 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GlazewmTilingDirectionConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-17 17:54:01,922 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GlazewmWorkspacesConfig: 'hide_empty_workspaces' - No longer supported and can be removed from the config.
+2026-05-17 17:54:01,922 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GlazewmWorkspacesConfig: 'container_padding' - Use CSS padding instead.
+2026-05-17 17:54:01,937 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CpuConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-17 17:54:02,334 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] WeatherWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-17 17:54:02,636 [WARNING] [MainThread] [root/bar_manager.py:171]: Screen 'secondary' from config not found among connected screens.
+2026-05-17 17:54:02,636 [INFO] [MainThread] [root/bar_manager.py:102]: Starting SystemEventListener...
+2026-05-17 17:54:02,637 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pedro\.config\yasb
+2026-05-17 17:54:02,637 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-17 17:54:02,653 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-17 17:54:03,183 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-17 17:54:03.183179
+2026-05-17 17:54:12,574 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-17 17:54:12,574 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-17 17:54:12,575 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-05-17 17:54:12,677 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-17 17:54:12,683 [INFO] [MainThread] [root/bar_manager.py:92]: Successfully loaded updated config and re-initialised all bars.
+2026-05-17 17:54:12,772 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping SystemEventListener...
+2026-05-17 17:54:13,339 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-17 17:54:13,339 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-17 17:54:13,340 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-17 17:54:13,381 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-17 17:54:13,381 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-17 17:54:13,396 [WARNING] [MainThread] [root/bar_manager.py:150]: Screen 'secondary' from config not found among connected screens.
+2026-05-17 17:54:13,409 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GlazewmTilingDirectionConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-17 17:54:13,451 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GlazewmWorkspacesConfig: 'hide_empty_workspaces' - No longer supported and can be removed from the config.
+2026-05-17 17:54:13,451 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GlazewmWorkspacesConfig: 'container_padding' - Use CSS padding instead.
+2026-05-17 17:54:13,466 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CpuConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-17 17:54:13,848 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] WeatherWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-17 17:54:14,121 [WARNING] [MainThread] [root/bar_manager.py:171]: Screen 'secondary' from config not found among connected screens.
+2026-05-17 17:54:14,121 [INFO] [MainThread] [root/bar_manager.py:102]: Starting SystemEventListener...
+2026-05-17 17:54:14,122 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pedro\.config\yasb
+2026-05-17 17:54:14,122 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-17 17:54:14,140 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-17 17:54:14,254 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-17 17:54:14.254557
+2026-05-17 17:54:21,793 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-17 17:54:21,793 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-17 17:54:21,794 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-05-17 17:54:21,907 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-17 17:54:21,913 [INFO] [MainThread] [root/bar_manager.py:92]: Successfully loaded updated config and re-initialised all bars.
+2026-05-17 17:54:22,016 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping SystemEventListener...
+2026-05-17 17:54:22,625 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-17 17:54:22,626 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-17 17:54:22,626 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-17 17:54:22,671 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-17 17:54:22,671 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-17 17:54:22,686 [WARNING] [MainThread] [root/bar_manager.py:150]: Screen 'secondary' from config not found among connected screens.
+2026-05-17 17:54:22,701 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GlazewmTilingDirectionConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-17 17:54:22,744 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GlazewmWorkspacesConfig: 'hide_empty_workspaces' - No longer supported and can be removed from the config.
+2026-05-17 17:54:22,744 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GlazewmWorkspacesConfig: 'container_padding' - Use CSS padding instead.
+2026-05-17 17:54:22,763 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CpuConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-17 17:54:23,154 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] WeatherWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-17 17:54:23,382 [WARNING] [MainThread] [root/bar_manager.py:171]: Screen 'secondary' from config not found among connected screens.
+2026-05-17 17:54:23,382 [INFO] [MainThread] [root/bar_manager.py:102]: Starting SystemEventListener...
+2026-05-17 17:54:23,385 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pedro\.config\yasb
+2026-05-17 17:54:23,385 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-17 17:54:23,423 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-17 17:54:23,529 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-17 17:54:23.529490
+2026-05-17 17:54:47,089 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-17 17:54:47,089 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-17 17:54:47,090 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-05-17 17:54:47,194 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-17 17:54:47,200 [INFO] [MainThread] [root/bar_manager.py:92]: Successfully loaded updated config and re-initialised all bars.
+2026-05-17 17:54:47,299 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping SystemEventListener...
+2026-05-17 17:54:47,852 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-17 17:54:47,853 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-17 17:54:47,853 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-17 17:54:47,899 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-17 17:54:47,899 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-17 17:54:47,913 [WARNING] [MainThread] [root/bar_manager.py:150]: Screen 'secondary' from config not found among connected screens.
+2026-05-17 17:54:47,927 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GlazewmTilingDirectionConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-17 17:54:47,970 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GlazewmWorkspacesConfig: 'hide_empty_workspaces' - No longer supported and can be removed from the config.
+2026-05-17 17:54:47,970 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GlazewmWorkspacesConfig: 'container_padding' - Use CSS padding instead.
+2026-05-17 17:54:47,986 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CpuConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-17 17:54:48,067 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] WeatherWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-17 17:54:48,585 [WARNING] [MainThread] [root/bar_manager.py:171]: Screen 'secondary' from config not found among connected screens.
+2026-05-17 17:54:48,585 [INFO] [MainThread] [root/bar_manager.py:102]: Starting SystemEventListener...
+2026-05-17 17:54:48,586 [ERROR] [MainThread] [root/widget_builder.py:114]: Failed to validate widget(s) due to invalid options  - clock
+      icons:
+      - Input should be a valid dictionary
+      clock_01:
+      - Extra inputs are not permitted
+      clock_02:
+      - Extra inputs are not permitted
+      clock_03:
+      - Extra inputs are not permitted
+      clock_04:
+      - Extra inputs are not permitted
+      clock_05:
+      - Extra inputs are not permitted
+      clock_06:
+      - Extra inputs are not permitted
+      clock_07:
+      - Extra inputs are not permitted
+      clock_08:
+      - Extra inputs are not permitted
+      clock_09:
+      - Extra inputs are not permitted
+      clock_10:
+      - Extra inputs are not permitted
+      clock_11:
+      - Extra inputs are not permitted
+      clock_12:
+      - Extra inputs are not permitted
+      clock_16:
+      - Extra inputs are not permitted
+      clock_21:
+      - Extra inputs are not permitted
+      clock_22:
+      - Extra inputs are not permitted
+      clock_23:
+      - Extra inputs are not permitted
+      
+2026-05-17 17:54:48,617 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pedro\.config\yasb
+2026-05-17 17:54:48,617 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-17 17:54:48,628 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-17 17:54:48,957 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-17 17:54:48.957093
+2026-05-17 17:54:59,059 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-17 17:54:59,059 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-17 17:54:59,059 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-05-17 17:54:59,164 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-17 17:54:59,170 [INFO] [MainThread] [root/bar_manager.py:92]: Successfully loaded updated config and re-initialised all bars.
+2026-05-17 17:54:59,304 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping SystemEventListener...
+2026-05-17 17:54:59,893 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-17 17:54:59,894 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-17 17:54:59,894 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-17 17:54:59,938 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-17 17:54:59,938 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-17 17:54:59,955 [WARNING] [MainThread] [root/bar_manager.py:150]: Screen 'secondary' from config not found among connected screens.
+2026-05-17 17:54:59,968 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GlazewmTilingDirectionConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-17 17:55:00,013 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GlazewmWorkspacesConfig: 'hide_empty_workspaces' - No longer supported and can be removed from the config.
+2026-05-17 17:55:00,013 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GlazewmWorkspacesConfig: 'container_padding' - Use CSS padding instead.
+2026-05-17 17:55:00,032 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CpuConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-17 17:55:00,427 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] WeatherWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-17 17:55:00,662 [WARNING] [MainThread] [root/bar_manager.py:171]: Screen 'secondary' from config not found among connected screens.
+2026-05-17 17:55:00,663 [INFO] [MainThread] [root/bar_manager.py:102]: Starting SystemEventListener...
+2026-05-17 17:55:00,664 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pedro\.config\yasb
+2026-05-17 17:55:00,664 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-17 17:55:00,717 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-17 17:55:00,824 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-17 17:55:00.824451
+2026-05-17 17:55:23,396 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-17 17:55:23,396 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-17 17:55:23,397 [ERROR] [MainThread] [root/config.py:99]: The config file 'C:\Users\pedro\.config\yasb\config.yaml' contains validation errors. Please fix:
+widgets:
+  clock:
+    str:
+    - Input should be a valid string
+    dict[str,any]:
+    - Input should be a valid dictionary
+
+2026-05-17 17:55:32,678 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-17 17:55:32,678 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-17 17:55:32,679 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-05-17 17:55:32,785 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-17 17:55:32,791 [INFO] [MainThread] [root/bar_manager.py:92]: Successfully loaded updated config and re-initialised all bars.
+2026-05-17 17:55:32,928 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping SystemEventListener...
+2026-05-17 17:55:33,510 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-17 17:55:33,511 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-17 17:55:33,511 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-17 17:55:33,555 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-17 17:55:33,556 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-17 17:55:33,570 [WARNING] [MainThread] [root/bar_manager.py:150]: Screen 'secondary' from config not found among connected screens.
+2026-05-17 17:55:33,584 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GlazewmTilingDirectionConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-17 17:55:33,626 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GlazewmWorkspacesConfig: 'hide_empty_workspaces' - No longer supported and can be removed from the config.
+2026-05-17 17:55:33,626 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GlazewmWorkspacesConfig: 'container_padding' - Use CSS padding instead.
+2026-05-17 17:55:33,641 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CpuConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-17 17:55:34,166 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] WeatherWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-17 17:55:34,371 [WARNING] [MainThread] [root/bar_manager.py:171]: Screen 'secondary' from config not found among connected screens.
+2026-05-17 17:55:34,372 [INFO] [MainThread] [root/bar_manager.py:102]: Starting SystemEventListener...
+2026-05-17 17:55:34,373 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pedro\.config\yasb
+2026-05-17 17:55:34,373 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-17 17:55:34,411 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-17 17:55:34,769 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-17 17:55:34.769098
+2026-05-17 17:56:46,807 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-17 17:56:46,807 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-17 17:56:46,808 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-05-17 17:56:46,923 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-17 17:56:46,929 [INFO] [MainThread] [root/bar_manager.py:92]: Successfully loaded updated config and re-initialised all bars.
+2026-05-17 17:56:47,044 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping SystemEventListener...
+2026-05-17 17:56:47,687 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-17 17:56:47,687 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-17 17:56:47,688 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-17 17:56:47,735 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-17 17:56:47,735 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-17 17:56:47,752 [WARNING] [MainThread] [root/bar_manager.py:150]: Screen 'secondary' from config not found among connected screens.
+2026-05-17 17:56:47,766 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GlazewmTilingDirectionConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-17 17:56:47,811 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GlazewmWorkspacesConfig: 'hide_empty_workspaces' - No longer supported and can be removed from the config.
+2026-05-17 17:56:47,811 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GlazewmWorkspacesConfig: 'container_padding' - Use CSS padding instead.
+2026-05-17 17:56:47,828 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CpuConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-17 17:56:48,224 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] WeatherWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-17 17:56:48,565 [WARNING] [MainThread] [root/bar_manager.py:171]: Screen 'secondary' from config not found among connected screens.
+2026-05-17 17:56:48,566 [INFO] [MainThread] [root/bar_manager.py:102]: Starting SystemEventListener...
+2026-05-17 17:56:48,566 [ERROR] [MainThread] [root/widget_builder.py:114]: Failed to validate widget(s) due to invalid options  - weather
+      api_key:
+      - Input should be a valid string
+      
+2026-05-17 17:56:48,593 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\pedro\.config\yasb
+2026-05-17 17:56:48,593 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-17 17:56:48,606 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started

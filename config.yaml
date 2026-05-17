@@ -41,14 +41,15 @@ bars:
         "active_window"
       ]
       center: [
+        "cpu",
+        "gpu",
+        "memory",
         "clock"
       ]
       right: [
         "traffic",
         "weather",
-        "cpu",
-        "gpu",
-        "memory",
+
         ]
 widgets:
   home:
@@ -101,11 +102,51 @@ widgets:
   clock:
     type: "yasb.clock.ClockWidget"
     options:
-      label: "{%I:%M:%S}"
-      label_alt: "{%I:%M:%S}"
+      label: "<span>{icon}</span> <span>{alarm}</span> {%H:%M:%S}"
+      label_alt: "\uf017 {%d-%m-%y %H:%M:%S}"
+      locale: ""
+      update_interval: 1000
       timezones: []
+      icons:
+        clock_01 : "\udb85\udc3f"
+        clock_02 : "\udb85\udc40"
+        clock_03 : "\udb85\udc41"
+        clock_04 : "\udb85\udc42"
+        clock_05 : "\udb85\udc43"
+        clock_06 : "\udb85\udc44"
+        clock_07 : "\udb85\udc45"
+        clock_08 : "\udb85\udc46"
+        clock_09 : "\udb85\udc47"
+        clock_10 : "\udb85\udc48"
+        clock_11 : "\udb85\udc49"
+        clock_12 : "\udb85\udc4a"
+        clock_16 : "SNACK TIME !"
+        clock_21 : "Zzz..."
+        clock_22 : "Zzz..."
+        clock_23 : "Zzz..."
+      alarm_icons:
+        enabled: "\uf0f3"
+        disabled: "\uf0a2"
+        snooze: "\uf1f6"
+      calendar: 
+        blur: true
+        round_corners: true
+        round_corners_type: "normal"
+        border_color: "system"
+        alignment: "center"
+        direction: "down"
+        offset_top: 6
+        offset_left: 0
+        show_holidays: false
+        show_week_numbers: true
+        show_years: true
+        country_code: "AR"
+        holiday_color: "#FF6464"
+        extended: false
       callbacks:
         on_left: "toggle_calendar"
+        on_middle: "next_timezone"
+        on_right: "toggle_label"
   weather:
     type: "yasb.weather.WeatherWidget"
     options:
