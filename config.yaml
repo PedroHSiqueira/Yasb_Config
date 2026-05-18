@@ -38,6 +38,7 @@ bars:
       left: [
         "glazewm_tiling_direction",
         "glazewm_workspaces",
+        "taskbar",
         "active_window"
       ]
       center: [
@@ -92,13 +93,30 @@ widgets:
     type: "yasb.active_window.ActiveWindowWidget"
     options:
       label: "{win[title]}"
-      label_alt: "[class_name='{win[class_name]}' exe='{win[process][name]}' hwnd={win[hwnd]}]"
+      label_alt: ""
       label_no_window: ""
       label_icon: true
       label_icon_size: 14
       max_length: 46
       max_length_ellipsis: "..."
       monitor_exclusive: true
+  taskbar:
+    type: "yasb.taskbar.TaskbarWidget"
+    options:
+      icon_size: 16
+      tooltip: true
+      show_only_visible: false
+      strict_filtering: true
+      monitor_exclusive: false
+      animation:
+        enabled: true
+        duration: 200
+      preview:
+        enabled: true
+        width: 240
+        delay: 400
+        padding: 8
+        margin: 8
   clock:
     type: "yasb.clock.ClockWidget"
     options:
@@ -194,64 +212,10 @@ widgets:
         color: "black"
         radius: 3
         offset: [ 1, 1 ]
-  volume:
-    type: "yasb.volume.VolumeWidget"
-    options:
-      label: "<span>{icon}</span> {level}"
-      label_alt: "{volume}"
-      tooltip: false
-      volume_icons:
-        - "\ueee8"
-        - "\uf026"
-        - "\uf027"
-        - "\uf027"
-        - "\uf028"
-      callbacks:
-        on_left: "toggle_mute"
-        on_right: "exec cmd.exe /c start ms-settings:sound"
-  power_menu:
-    type: "yasb.power_menu.PowerMenuWidget"
-    options:
-      label: "\uf011"
-      uptime: True
-      blur: False
-      blur_background: True
-      animation_duration: 200
-      button_row: 5
-      buttons:
-        shutdown: ["\uf011", "Rage Quit"]
-        restart: ["\uead2", "Oops, Reboot"]
-        signout: ["\udb80\udf43", "Dip Out"]
-        hibernate: ["\uf28e", "Bear Mode"]
-        sleep: ["\u23fe", "Nap Time"]
-        cancel: ["", "Nah, Im Good "]
-  apps:
-    type: "yasb.applications.ApplicationsWidget"
-    options:
-      container_padding:
-        top: 0
-        left: 8
-        bottom: 0
-        right: 8
-      label: "{data}"
-      app_list:
-        - { icon: "\ueb03", launch: "cmd /c Taskmgr" }
-        - { icon: "\uf489", launch: "wt"}
-  notifications:
-    type: "yasb.notifications.NotificationsWidget"
-    options:
-      label: "<span>\uf476</span> {count}"
-      label_alt: "{count} notifications"
-      hide_empty: true
-      tooltip: false
-      callbacks:
-        on_left: "toggle_notification"
-        on_right: "do_nothing"
-        on_middle: "toggle_label"
   cpu:
     type: "yasb.cpu.CpuWidget"
     options:
-      label: "<span>\uf4bc</span> {info[percent][total]}"
+      label: "<span>\uf4bc</span> {info[percent][total]}%"
       label_alt: "<span>\uf437</span> {info[histograms][cpu_percent]}"
       update_interval: 2000
       cpu_thresholds:
