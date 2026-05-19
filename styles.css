@@ -151,64 +151,7 @@
 	color: #cba6f7;
     font-size: 14px;
 }
-/* WEATHER WIDGET */
-.weather-card {
-    background-color: rgba(17, 17, 27, 0.5);
-}
-.weather-card-today {
-    border: 1px solid #282936;
-    border-radius: 8px;
-    background-color:  rgba(17, 17, 27, 0.2);
-}
-.weather-card-today .label {
-    font-size: 12px;
-}
-.weather-card-today .label.location {
-    font-size: 24px;
-    font-weight: 700;
-}
-.weather-card-today .label.alert {
-    font-size: 12px;
-    font-weight: 700;
-    background-color: rgba(247, 199, 42, 0.05);
-    border: 1px solid rgba(247, 209, 42, 0.1);
-    color: rgba(196, 181, 162, 0.85);
-    border-radius: 6px;
-    padding: 5px 0;
-}
-.weather-card-day {
-    border: 1px solid #45475a;
-    border-radius: 8px;
-    background-color:  rgba(17, 17, 27, 0.2);
-}
 
-.weather-card-day.active {
-    background-color: rgba(40, 40, 60, 0.6);
-    border: 1px solid rgba(50, 50, 75, 1);
-}
-
-.weather-card-day:hover {
-    background-color: rgba(40, 40, 60, 0.6);
-}
-
-.weather-card-day .label {
-    font-size: 12px;
-}
-
-.weather-card .hourly-container {
-    border: 1px solid #282936;
-    background-color: #3c5fa0;
-    border-radius: 8px;
-    min-height: 150px;
-}
-
-.weather-card .hourly-data {
-    /* font-family: 'Segoe UI';*/
-    /* color: cyan;*/ /* <- Font color */
-    background-color: #FAE93F; /* <- Curve color */
-    font-size: 12px;
-    font-weight: bold;
-}
 .media-widget {
 	padding: 0;
 	margin: 0;
@@ -329,67 +272,134 @@ Example: "Windows Media" becomes "windows-media" */
 	margin: 0 -6px;
     padding-left: 4px;
 }
-.pomodoro-widget {
-    padding: 0 0 0 0;
+
+/* traffic */
+
+.traffic-menu {
+    background-color: rgba(24, 25, 27, 0.85);
+    min-width: 280px;
 }
-.pomodoro-widget .icon {
-    font-size: 12px;
-    padding-right: 4px;
+.traffic-menu .header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(24, 25, 27, 0.8);
 }
-.pomodoro-widget .label.paused,
-.pomodoro-widget .icon.paused {
-    color: #7d7e8b;
-}
-.pomodoro-widget .label.work,
-.pomodoro-widget .icon.work {
-    color: #a6e3a1;
-}
-.pomodoro-widget .label.break,
-.pomodoro-widget .icon.break {
-    color: #89b4fa;
-}
-/* Pomodoro menu styling */
-.pomodoro-menu {
-    background-color: rgba(17, 17, 27, 0.2);
-    border-radius: 8px;
-}
-.pomodoro-menu .header {
+.traffic-menu .header .title {
+    padding: 8px;
     font-size: 16px;
     font-weight: 600;
-    max-height: 0px;
-    color: #ffffff;
+    font-family: 'Segoe UI';
+    color: #ffffff
 }
-.pomodoro-menu .status {
-    font-size: 18px;
-    font-weight: 600;
-    color: #cdd6f4;
-}
-.pomodoro-menu .session {
-    font-size: 12px;
-    color: #a6adc8;
-}
-.pomodoro-menu .button {
-    background-color: #3f4053;
-    color: #cdd6f4;
-    border: none;
+.traffic-menu .header .reset-button {
+    font-size: 11px;
+    padding: 4px 8px;
+    margin-right: 8px;
+    font-family: 'Segoe UI';
     border-radius: 4px;
-    padding: 6px 12px;
+    font-weight: 600;
+    background-color: transparent;
+    border: none;
 }
-.pomodoro-menu .button.start {
-    background-color: #3f4053;
+.traffic-menu .reset-button:hover {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
-.pomodoro-menu .button.reset {
-    background-color: #3f4053;
+.traffic-menu .reset-button:pressed {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
-.pomodoro-menu .button:hover {
-    background-color: rgba(255, 255, 255, 0.158);
+/* Speed column styles */
+.traffic-menu .download-speed,
+.traffic-menu .upload-speed {
+    background-color: transparent;
+    padding: 4px 10px;
+    margin-right: 12px;
+    margin-left: 12px;
+    margin-top: 16px;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
-.pomodoro-menu .button.pause {
-    background-color: #a6e3a1;
-    color: #1e1e2e;
+.traffic-menu .download-speed {
+    margin-left: 12px;
+    margin-right: 12px;
 }
-.pomodoro-menu .button:pressed {
-    background-color: #5a5b6e;
+.traffic-menu .speed-separator {
+    max-width: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 32px 0 16px 0;
+}
+.traffic-menu .upload-speed-value,
+.traffic-menu .download-speed-value {
+    font-size: 24px;
+    font-weight: 900;
+    font-family: 'Segoe UI';
+    color: #bcc2c5;
+}
+.traffic-menu .upload-speed-unit,
+.traffic-menu .download-speed-unit {
+    font-size: 13px;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    padding-top: 4px;
+}
+.traffic-menu .upload-speed-placeholder,
+.traffic-menu .download-speed-placeholder {
+    color: #747474;
+    font-size: 11px;
+    font-family: 'Segoe UI';
+    padding: 0 0 4px 0;
+}
+
+/* Section and data styles */
+.traffic-menu .section-title {
+    font-size: 12px;
+    font-weight: 600;
+    color: #7c8192;
+    margin-bottom: 4px;
+    font-family: 'Segoe UI';
+}
+.traffic-menu .session-section,
+.traffic-menu .today-section,
+.traffic-menu .alltime-section {
+    margin: 8px 8px 0 8px;
+    padding: 0 10px 10px 10px;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.traffic-menu .data-text {
+    font-size: 13px;
+    color: #afb5cc;
+    padding: 2px 0;
+    font-family: 'Segoe UI';
+
+}
+.traffic-menu .data-value {
+    font-weight: 600;
+    font-size: 13px;
+    font-family: 'Segoe UI';
+    padding: 2px 0;
+}
+
+/* Interface and Internet info styles */
+.traffic-menu .interface-info,
+.traffic-menu .internet-info {
+    font-size: 12px;
+    color: #6f7486;
+    padding: 8px 0;
+    font-family: 'Segoe UI';
+}
+.traffic-menu .internet-info {
+    background-color: rgba(68, 68, 68, 0.1);
+}
+.traffic-menu .internet-info.connected {
+    background-color: rgba(166, 227, 161, 0.096);
+    color: #a6e3a1;
+}
+.traffic-menu .internet-info.disconnected {
+    background-color: rgba(243, 139, 168, 0.1);
+    color: #f38ba8;
 }
 
 .calendar {
